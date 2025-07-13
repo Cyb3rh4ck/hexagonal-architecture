@@ -1,7 +1,6 @@
 package com.codigojava.insurance.insurance360.user.application.usercreate;
 
 import java.util.Date;
-import java.util.List;
 
 import com.codigojava.insurance.insurance360.user.domain.User;
 import com.codigojava.insurance.insurance360.user.domain.UserCreateAt;

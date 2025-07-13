@@ -17,7 +17,6 @@
  */
 package com.codigojava.insurance.insurance360.user.domain;
 
-
 public class User {
 
     private UserId id;
@@ -31,6 +30,23 @@ public class User {
         this.email = email;
         this.createAt = createAt;
     }
-    
 
+    /**
+     * Provides getter methods to access the User's attributes.
+     */
+    public UserId getId() {
+        return id;
+    }
+
+    public UserName getName() {
+        return name;
+    }
+
+    public UserEmail getEmail() {
+        return email;
+    }
+
+    public UserCreateAt getCreateAt() {
+        return createAt;
+    }
 }
